@@ -1,0 +1,27 @@
+body>div {
+    border: 2px solid green;
+    height: 500px;
+    width: 1000px;
+
+}
+
+div>div {
+    border: 2px dashed purple;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 30px;
+    margin: 20px;
+    font-size: 30px;
+    color: blue;
+    background-color: pink;
+
+}
